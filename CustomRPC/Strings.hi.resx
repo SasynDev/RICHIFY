@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="error" xml:space="preserve">
+    <value>त्रुटि</value>
+  </data>
+  <data name="errorNoID" xml:space="preserve">
+    <value>कोई आईडी निर्दिष्ट नहीं की गई!</value>
+  </data>
+  <data name="errorUpdateFailed" xml:space="preserve">
+    <value>एक अपडेट डाउनलोड करने या इंस्टॉल करने में एक त्रुटि हुई थी।
+"हाँ" पर क्लिक करें या "नहीं" पर क्लिक करें आत्म से प्राप्त करने के लिए।</value>
+  </data>
+  <data name="firstTimeRun" xml:space="preserve">
+    <value>क्या आपको सहायता चाहिए?</value>
+  </data>
+  <data name="firstTimeRunText" xml:space="preserve">
+    <value>क्या आप मैनुअल खोलना चाहेंगे?
+आप कभी भी Help -&gt; Open the Manual जाकर या F1 दबाकर खोल सकते हैं।</value>
+  </data>
+  <data name="information" xml:space="preserve">
+    <value>जानकारी</value>
+  </data>
+  <data name="statusConnected" xml:space="preserve">
+    <value>कनेक्टेड</value>
+  </data>
+  <data name="statusConnecting" xml:space="preserve">
+    <value>कनेक्ट हो रहा है...</value>
+  </data>
+  <data name="statusConnectionFailed" xml:space="preserve">
+    <value>कनेक्शन फ़ेल हो गया (क्या Discord चल रहा है?)</value>
+  </data>
+  <data name="statusDisconnected" xml:space="preserve">
+    <value>डिस्कनेक्टेड</value>
+  </data>
+  <data name="statusError" xml:space="preserve">
+    <value>कनेक्शन त्रुटि (गलत आईडी?)</value>
+  </data>
+  <data name="errorInvalidURL" xml:space="preserve">
+    <value>बटन(ओं) के लिए निर्दिष्ट URL अवैध है या पाठ बहुत लंबा है!</value>
+  </data>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>इंटरनेट से कनेक्ट नहीं किया जा सकता!</value>
+  </data>
+  <data name="noUpdatesFound" xml:space="preserve">
+    <value>कोई अपडेट नहीं मिला!</value>
+  </data>
+  <data name="errorCorruptSettings" xml:space="preserve">
+    <value>सेटिंग्स फ़ाइल करप्ट है।
+सेटिंग्स को रीसेट करने के लिए Yes दबाएँ, बंद करने के लिए No दबाएँ।</value>
+  </data>
+  <data name="errorInvalidPresetFile" xml:space="preserve">
+    <value>प्रीसेट आयात करने में विफल; फ़ाइल या तो गायब है, करप्ट है, या सही ढंग से फ़ॉर्मेट नहीं है।</value>
+  </data>
+  <data name="askAnalyticsConsent" xml:space="preserve">
+    <value>आपको अनुमति है कि RICHIFY डेवलपर को आपका उपयोग एनालिटिक्स भेज सके?
+(सभी डेटा व्यक्तिगतता रहित होता है।)</value>
+  </data>
+  <data name="errorSavingSettings" xml:space="preserve">
+    <value>सेटिंग्स को सहेजने में त्रुटि हुई:</value>
+  </data>
+  <data name="errorLoadingAssembly" xml:space="preserve">
+    <value>कृपया अपने एंटीवायरस के अपवाद में "{0}" पथ जोड़ें। यदि यह त्रुटि बनी रहती है तो RICHIFY पुनः स्थापित करें।</value>
+  </data>
+  <data name="errorInvalidImageURL" xml:space="preserve">
+    <value>छवि का URL बहुत लंबा है!</value>
+  </data>
+  <data name="errorStartupShortcut" xml:space="preserve">
+    <value>स्टार्टअप शॉर्टकट जोड़ने या हटाने में विफल:</value>
+  </data>
+  <data name="errorOpeningURL" xml:space="preserve">
+    <value>URL ਖੋਲਣ ਵਿੱਚ ਅਸਫਲ ਰਹਿਆ ਹੈ। ਇਹ ਕਲਿੱਪਬੋਰਡ 'ਤੇ ਕਾਪੀ ਕੀਤਾ ਗਿਆ ਹੈ।</value>
+  </data>
+  <data name="statusUpdatingPresence" xml:space="preserve">
+    <value>प्रासेंस अपडेट हो रहा है...</value>
+  </data>
+  <data name="newPresetConfirmation" xml:space="preserve">
+    <value>क्या आप सुनिश्चित हैं कि आप शुरू करना चाहते हैं?
+यह वापस नहीं किया जा सकता।</value>
+  </data>
+  <data name="deleteSettings" xml:space="preserve">
+    <value>क्या आप एप्लिकेशन की सेटिंग्स हटाना चाहते हैं?
+यह क्रिया पूर्ववत नहीं की जा सकती।</value>
+  </data>
+  <data name="presenceTypePlaying" xml:space="preserve">
+    <value>खेल</value>
+  </data>
+  <data name="presenceTypeListening" xml:space="preserve">
+    <value>सुनना</value>
+  </data>
+  <data name="presenceTypeWatching" xml:space="preserve">
+    <value>देखना</value>
+  </data>
+  <data name="presenceTypeCompeting" xml:space="preserve">
+    <value>प्रतिस्पर्धा</value>
+  </data>
+</root>

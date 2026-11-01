@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="trayIcon.BalloonTipText" xml:space="preserve">
+    <value>Clique duas vezes no ícone para exibi-lo novamente ou clique com o botão direito para sair.</value>
+  </data>
+  <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
+    <value>O aplicativo será executado na bandeja.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="trayMenuReconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="trayMenuReconnect.Text" xml:space="preserve">
+    <value>Reconectar</value>
+  </data>
+  <data name="toolStripSeparatorTray1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 6</value>
+  </data>
+  <data name="trayMenuQuit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="trayMenuQuit.Text" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="trayMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 76</value>
+  </data>
+  <data name="loadPresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 22</value>
+  </data>
+  <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Carregar Predefinição</value>
+  </data>
+  <data name="savePresetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 22</value>
+  </data>
+  <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Salvar Predefinição</value>
+  </data>
+  <data name="toolStripSeparatorFile1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 6</value>
+  </data>
+  <data name="uploadAssetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 22</value>
+  </data>
+  <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Enviar imagens personalizadas</value>
+  </data>
+  <data name="toolStripSeparatorFile2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 6</value>
+  </data>
+  <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 22</value>
+  </data>
+  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Arquivo</value>
+  </data>
+  <data name="runOnStartupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
+    <value>Executar ao Iniciar</value>
+  </data>
+  <data name="startMinimizedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
+    <value>Iniciar Minimizado</value>
+  </data>
+  <data name="toolStripSeparatorSettings1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 6</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verificar Atualizações</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 6</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>Padrão</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="openTheManualToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
+    <value>Abra o Manual</value>
+  </data>
+  <data name="gitHubPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Página do GitHub</value>
+  </data>
+  <data name="toolStripSeparatorHelp1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 6</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tradutores</value>
+  </data>
+  <data name="toolStripSeparatorHelp2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 6</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verificar Atualizações...</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sobre...</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="downloadUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Baixar Atualização</value>
+  </data>
+  <data name="buttonUpdatePresence.Text" xml:space="preserve">
+    <value>Atualizar Presença</value>
+  </data>
+  <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
+    <value>Atualizações de Presença.</value>
+  </data>
+  <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 50</value>
+  </data>
+  <data name="buttonConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 24</value>
+  </data>
+  <data name="buttonConnect.Text" xml:space="preserve">
+    <value>Conectar</value>
+  </data>
+  <data name="buttonConnect.ToolTip" xml:space="preserve">
+    <value>Vincula o aplicativo ao ID especificado com presença definida.</value>
+  </data>
+  <data name="buttonDisconnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 50</value>
+  </data>
+  <data name="buttonDisconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 24</value>
+  </data>
+  <data name="buttonDisconnect.Text" xml:space="preserve">
+    <value>Desconectar</value>
+  </data>
+  <data name="buttonDisconnect.ToolTip" xml:space="preserve">
+    <value>Desconecta o aplicativo do Discord. Observe que pode demorar um pouco.</value>
+  </data>
+  <data name="labelID.ToolTip" xml:space="preserve">
+    <value>ID do aplicativo no site Discord Developers.</value>
+  </data>
+  <data name="labelDetails.ToolTip" xml:space="preserve">
+    <value>Primeira linha na presença.</value>
+  </data>
+  <data name="labelState.ToolTip" xml:space="preserve">
+    <value>Segunda linha na presença.</value>
+  </data>
+  <data name="labelSmallText.ToolTip" xml:space="preserve">
+    <value>Texto exibido ao passar o mouse sobre a imagem pequena.</value>
+  </data>
+  <data name="labelLargeText.ToolTip" xml:space="preserve">
+    <value>Texto exibido ao passar o mouse sobre a imagem grande.</value>
+  </data>
+  <data name="labelSmall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 14</value>
+  </data>
+  <data name="labelSmall.Text" xml:space="preserve">
+    <value>Imagem Pequena</value>
+  </data>
+  <data name="labelSmall.ToolTip" xml:space="preserve">
+    <value>Imagem que aparece no canto inferior direito de uma imagem grande.</value>
+  </data>
+  <data name="labelLarge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 14</value>
+  </data>
+  <data name="labelLarge.Text" xml:space="preserve">
+    <value>Imagem Grande</value>
+  </data>
+  <data name="labelLarge.ToolTip" xml:space="preserve">
+    <value>Imagem que mostra a esquerda para o texto definido acima.</value>
+  </data>
+  <data name="radioButtonNone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 18</value>
+  </data>
+  <data name="radioButtonStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 18</value>
+  </data>
+  <data name="radioButtonStartTime.Text" xml:space="preserve">
+    <value>Desde que o RICHIFY começou</value>
+  </data>
+  <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
+    <value>Mostra o tempo desde que o aplicativo foi iniciado.</value>
+  </data>
+  <data name="radioButtonLocalTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 18</value>
+  </data>
+  <data name="radioButtonLocalTime.Text" xml:space="preserve">
+    <value>Seu horário local</value>
+  </data>
+  <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
+    <value>Mostra sua hora atual no formato de 24 horas.</value>
+  </data>
+  <data name="labelTimestamp.ToolTip" xml:space="preserve">
+    <value>Define o contador de data / hora para o status, que aparece abaixo de todo o texto acima.
+Os temporizadores de status têm limite de 24 horas, o que significa que após 24 horas o tempo voltará para 0:00.</value>
+  </data>
+  <data name="labelParty.ToolTip" xml:space="preserve">
+    <value>Quantidade de jogadores no grupo atual exibida ao lado do campo status.
+Para ter efeito, ambos os campos devem ser maiores que 0.</value>
+  </data>
+  <data name="radioButtonCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 18</value>
+  </data>
+  <data name="radioButtonCustom.Text" xml:space="preserve">
+    <value>Data / hora personalizado</value>
+  </data>
+  <data name="radioButtonCustom.ToolTip" xml:space="preserve">
+    <value>Mostra quanto tempo se passou ou falta para a data definida abaixo.</value>
+  </data>
+  <data name="labelButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 14</value>
+  </data>
+  <data name="labelButton1.Text" xml:space="preserve">
+    <value>Botão 1</value>
+  </data>
+  <data name="labelButton1.ToolTip" xml:space="preserve">
+    <value>O primeiro dos dois botões que aparecem abaixo do seu status no pop-up do seu perfil e no lado direito no perfil completo.</value>
+  </data>
+  <data name="labelButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 14</value>
+  </data>
+  <data name="labelButton2.Text" xml:space="preserve">
+    <value>Botão 2</value>
+  </data>
+  <data name="labelButton2.ToolTip" xml:space="preserve">
+    <value>Segundo botão, que aparece bem abaixo do primeiro botão, ou em vez dele, se o primeiro não estiver definido.</value>
+  </data>
+  <data name="labelButton1URL.ToolTip" xml:space="preserve">
+    <value>URL para o qual o botão levará o usuário ao clicar.</value>
+  </data>
+  <data name="labelButton2URL.ToolTip" xml:space="preserve">
+    <value>URL para o qual o botão levará o usuário ao clicar.</value>
+  </data>
+  <data name="labelButton1Text.ToolTip" xml:space="preserve">
+    <value>Titulo do primeiro botão.</value>
+  </data>
+  <data name="labelButton2Text.ToolTip" xml:space="preserve">
+    <value>Titulo do segundo botão.</value>
+  </data>
+  <data name="labelPartyOf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 14</value>
+  </data>
+  <data name="labelPartyOf.Text" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Conexão automática</value>
+  </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Permitir Análise</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tema Escuro</value>
+  </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>Nome escolhido para a imagem pequena no site Discord Developers.</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>Nome escolhido para a imagem grande no site Discord Developers.</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Apoiadores</value>
+  </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>Desde a última atualização do Rich Presence</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>Mostra quanto tempo se passou desde que você conectou ou atualizou o Rich Presence pela última vez.</value>
+  </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>Perguntas Frequentes</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nova Predefinição</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>Tipo de atividade para a presença.</value>
+  </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>O nome do aplicativo.</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>Desde a última conexão</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>Mostra quanto tempo se passou desde a sua última conexão.</value>
+  </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>Um link que será aberto quando o usuário clicar no texto Detalhes.</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>Um link que será aberto quando o usuário clicar no texto Estado.</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>Controla qual campo é exibido no texto de status do usuário na lista de membros.</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>Um link que será aberto quando o usuário clicar na imagem pequena.</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>Um link que será aberto quando o usuário clicar na imagem grande.</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>Começo</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>Fim</value>
+  </data>
+</root>

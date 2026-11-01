@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="trayIcon.BalloonTipText" xml:space="preserve">
+    <value>雙擊圖示以再次顯示，或按右鍵離開。</value>
+  </data>
+  <data name="trayIcon.BalloonTipTitle" xml:space="preserve">
+    <value>程式將於工作列托盤中執行。</value>
+  </data>
+  <data name="trayMenuReconnect.Text" xml:space="preserve">
+    <value>重新連線</value>
+  </data>
+  <data name="trayMenuQuit.Text" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>檔案</value>
+  </data>
+  <data name="loadPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>載入 預設設定</value>
+  </data>
+  <data name="savePresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>儲存 預設設定</value>
+  </data>
+  <data name="uploadAssetsToolStripMenuItem.Text" xml:space="preserve">
+    <value>上傳 RPA Assets</value>
+  </data>
+  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="runOnStartupToolStripMenuItem.Text" xml:space="preserve">
+    <value>開機時啟動</value>
+  </data>
+  <data name="startMinimizedToolStripMenuItem.Text" xml:space="preserve">
+    <value>以最小化啟動</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>檢查更新</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>幫助</value>
+  </data>
+  <data name="openTheManualToolStripMenuItem.Text" xml:space="preserve">
+    <value>打開說明手冊</value>
+  </data>
+  <data name="gitHubPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Github 頁面</value>
+  </data>
+  <data name="translatorsToolStripMenuItem.Text" xml:space="preserve">
+    <value>翻譯人員</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>關於...</value>
+  </data>
+  <data name="downloadUpdateToolStripMenuItem.Text" xml:space="preserve">
+    <value>下載更新</value>
+  </data>
+  <data name="buttonUpdatePresence.Text" xml:space="preserve">
+    <value>更新動態</value>
+  </data>
+  <data name="buttonUpdatePresence.ToolTip" xml:space="preserve">
+    <value>更新動態。</value>
+  </data>
+  <data name="buttonConnect.Text" xml:space="preserve">
+    <value>連線</value>
+  </data>
+  <data name="buttonConnect.ToolTip" xml:space="preserve">
+    <value>將本程式連線至具有設定動態的指定 ID。</value>
+  </data>
+  <data name="buttonDisconnect.Text" xml:space="preserve">
+    <value>取消連線</value>
+  </data>
+  <data name="buttonDisconnect.ToolTip" xml:space="preserve">
+    <value>取消本程式和 Discord 的連線。請注意，這可能需要一段時間。</value>
+  </data>
+  <data name="labelID.ToolTip" xml:space="preserve">
+    <value>在 Discord Developers 網頁的應用程式 ID 。</value>
+  </data>
+  <data name="labelDetails.ToolTip" xml:space="preserve">
+    <value>動態文字的第一行。</value>
+  </data>
+  <data name="labelState.ToolTip" xml:space="preserve">
+    <value>動態文字的第二行。</value>
+  </data>
+  <data name="labelSmallText.ToolTip" xml:space="preserve">
+    <value>滑鼠移動到小圖示時所顯示的文字。</value>
+  </data>
+  <data name="labelLargeText.ToolTip" xml:space="preserve">
+    <value>滑鼠移動到大圖示時所顯示的文字。</value>
+  </data>
+  <data name="labelSmall.Text" xml:space="preserve">
+    <value>小圖示</value>
+  </data>
+  <data name="labelSmall.ToolTip" xml:space="preserve">
+    <value>顯示於大圖示右下角的圖示。</value>
+  </data>
+  <data name="labelLarge.Text" xml:space="preserve">
+    <value>大圖示</value>
+  </data>
+  <data name="labelLarge.ToolTip" xml:space="preserve">
+    <value>顯示於動態左邊的圖示。</value>
+  </data>
+  <data name="radioButtonStartTime.Text" xml:space="preserve">
+    <value>自 RICHIFY 開啟時</value>
+  </data>
+  <data name="radioButtonStartTime.ToolTip" xml:space="preserve">
+    <value>顯示本程式自開啟後所經過的時間。</value>
+  </data>
+  <data name="radioButtonLocalTime.Text" xml:space="preserve">
+    <value>您的當地時間</value>
+  </data>
+  <data name="radioButtonLocalTime.ToolTip" xml:space="preserve">
+    <value>以 24 小時制顯示您當前的時間。</value>
+  </data>
+  <data name="labelTimestamp.ToolTip" xml:space="preserve">
+    <value>為狀態設定時間戳記，顯示在以上所有文字的下方。
+狀態計時器有 24 小時的限制，這表示 24 小時後，時間將重新從 0:00 開始。</value>
+  </data>
+  <data name="labelParty.ToolTip" xml:space="preserve">
+    <value>在動態欄位旁，顯示目前一起遊玩的玩家數量。
+如要生效，兩個數字都要大於 0。</value>
+  </data>
+  <data name="radioButtonCustom.Text" xml:space="preserve">
+    <value>自訂時間</value>
+  </data>
+  <data name="radioButtonCustom.ToolTip" xml:space="preserve">
+    <value>顯示以自訂時間為準 所經過或剩餘的時間。</value>
+  </data>
+  <data name="labelButton1.Text" xml:space="preserve">
+    <value>按鈕一</value>
+  </data>
+  <data name="labelButton1.ToolTip" xml:space="preserve">
+    <value>按鈕一會顯示在動態設定底下，以及完整的個人檔案中。</value>
+  </data>
+  <data name="labelButton2.Text" xml:space="preserve">
+    <value>按鈕二</value>
+  </data>
+  <data name="labelButton2.ToolTip" xml:space="preserve">
+    <value>按鈕二會顯示在按鈕一底下，如果沒有設定按鈕一，將取代按鈕一的位置。</value>
+  </data>
+  <data name="labelButton1URL.ToolTip" xml:space="preserve">
+    <value>點擊按鈕一後，所開啟的連結。</value>
+  </data>
+  <data name="labelButton2URL.ToolTip" xml:space="preserve">
+    <value>點擊按鈕二後，所開啟的連結。</value>
+  </data>
+  <data name="labelButton1Text.ToolTip" xml:space="preserve">
+    <value>按鈕一顯示的文字。</value>
+  </data>
+  <data name="labelButton2Text.ToolTip" xml:space="preserve">
+    <value>按鈕二顯示的文字。</value>
+  </data>
+  <data name="labelPartyOf.Text" xml:space="preserve">
+    <value>之</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>預設</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>語言</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>檢查更新...</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="autoconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>自動連線</value>
+  </data>
+  <data name="allowAnalyticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>允許統計資訊</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>黑暗模式</value>
+  </data>
+  <data name="labelLargeKey.ToolTip" xml:space="preserve">
+    <value>大圖示的檔案名稱或 URL 連結。</value>
+  </data>
+  <data name="labelSmallKey.ToolTip" xml:space="preserve">
+    <value>小圖示的檔案名稱或 URL 連結。</value>
+  </data>
+  <data name="supportersToolStripMenuItem.Text" xml:space="preserve">
+    <value>贊助者</value>
+  </data>
+  <data name="radioButtonPresence.Text" xml:space="preserve">
+    <value>自上次狀態更新以來</value>
+  </data>
+  <data name="radioButtonPresence.ToolTip" xml:space="preserve">
+    <value>顯示自上次的連線或更新狀態以來所經過的時間。</value>
+  </data>
+  <data name="faqToolStripMenuItem.Text" xml:space="preserve">
+    <value>常見問題與解答</value>
+  </data>
+  <data name="newPresetToolStripMenuItem.Text" xml:space="preserve">
+    <value>新增 預設設定</value>
+  </data>
+  <data name="labelType.ToolTip" xml:space="preserve">
+    <value>動態的類型。</value>
+  </data>
+  <data name="labelName.ToolTip" xml:space="preserve">
+    <value>該應用程式的名稱。</value>
+  </data>
+  <data name="radioButtonLastConnection.Text" xml:space="preserve">
+    <value>自最後一次連線以來</value>
+  </data>
+  <data name="radioButtonLastConnection.ToolTip" xml:space="preserve">
+    <value>顯示自最後一次連線以來所經歷的時間。</value>
+  </data>
+  <data name="labelDetailsURL.ToolTip" xml:space="preserve">
+    <value>使用者點擊詳情文字時會開啟的連結。</value>
+  </data>
+  <data name="labelStateURL.ToolTip" xml:space="preserve">
+    <value>使用者點擊狀態文字時會開啟的連結。</value>
+  </data>
+  <data name="labelDisplay.ToolTip" xml:space="preserve">
+    <value>控制成員列表中的使用者狀態文字所顯示的欄位。</value>
+  </data>
+  <data name="labelSmallURL.ToolTip" xml:space="preserve">
+    <value>使用者點擊小圖示時會開啟的連結。</value>
+  </data>
+  <data name="labelLargeURL.ToolTip" xml:space="preserve">
+    <value>使用者點擊大圖示時會開啟的連結。</value>
+  </data>
+  <data name="labelTimestampStart.Text" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="checkBoxTimestampEnd.Text" xml:space="preserve">
+    <value>結束</value>
+  </data>
+</root>
