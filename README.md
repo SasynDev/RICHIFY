@@ -51,6 +51,7 @@
 ## 👤 Author & Support
 
 - **Creator & Developer**: [SasynDev](https://github.com/SasynDev)
+- **Email**: [sasyndev@gmail.com](mailto:sasyndev@gmail.com)
 - **GitHub Repository**: [SasynDev/RICHIFY](https://github.com/SasynDev/RICHIFY)
 - **Discord Community**: [Join Support Server](https://discord.gg/urD8Dkbewj)
 
